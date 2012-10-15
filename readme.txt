@@ -21,5 +21,8 @@ The quickest method for installing this helper is:
 
 == Changelog ==
 
+= 1.0.1 =
+* added toggler button
+
 = 1.0 =
 * initial release
