@@ -14,10 +14,10 @@ Because there are some dumbasses out there who believe that's ok to let the user
 
 The quickest method for installing this helper is:
 
-1) upload the file (or folder) in your `wp-content/plugins` folder
-2) alternatively, you could search for `get-page-ids` in WP repository directly from wp-admin -> plugins -> add new
-3) activate
-4) check out the newly created tools->Get Page IDs page
+1. upload the file (or folder) in your `wp-content/plugins` folder
+1. alternatively, you could search for `get-page-ids` in WP repository directly from wp-admin -> plugins -> add new
+1. activate
+1. check out the newly created tools->Get Page IDs page
 
 == Changelog ==
 

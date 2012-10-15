@@ -55,13 +55,19 @@ class Create_array_of_page_ids{
             $('.ntzPageSelector input[name="page[]"]').filter(function(){
               return this.value == selectedID
             }).attr('checked', true)
-          })
+          });
+        });
+
+        $('#toggleCheckboxes').on('click', function(){
+          $('.ntzPageSelector input[type="checkbox"]').attr('checked', !$('.ntzPageSelector input[type="checkbox"]').is(':checked') ).trigger('change')
+          return false;
         })
       });
     </script>
 
     <div class="wrap">
       <div id="icon-tools" class="icon32"><br></div><h2>Get Page IDs</h2>
+        <p><a href="#" id="toggleCheckboxes">Toggle All Checkboxes</a></p>
         <ul class="ntzPageSelector">
           <?php
           $all_parent_pages = get_pages(array( 'child_of' => 0, 'parent' => 0 ));
