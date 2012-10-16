@@ -19,6 +19,9 @@ The quickest method for installing this helper is:
 1. activate
 1. check out the newly created tools->Get Page IDs page
 
+== Screenshots ==
+1. Sample page
+
 == Changelog ==
 
 = 1.0.1 =
