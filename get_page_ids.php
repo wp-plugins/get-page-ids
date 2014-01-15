@@ -4,7 +4,7 @@ Plugin Name: Get page IDs
 Plugin URI: http://iamntz.com
 Description: Because there are some dumb-asses out there who believe that's ok to let the user guess page the ID's, you will find a new page under tools menu that will help you with this. Enjoy!
 Author: Ionut Staicu
-Version: 1.0.1
+Version: 1.0.2
 Author URI: http://iamntz.com
 */
 
@@ -72,13 +72,13 @@ class Create_array_of_page_ids{
           <?php
           $all_parent_pages = get_pages(array( 'child_of' => 0, 'parent' => 0 ));
 
-          foreach( (array) $all_parent_pages as $parent_page ) { 
+          foreach( (array) $all_parent_pages as $parent_page ) {
             $this->display_page( $parent_page );
           } ?>
         </ul>
         <p><textarea id="pageIDs" class="widefat"></textarea></p>
       </div>
-    <?php 
+    <?php
   } // get_page_ids
 
   private function display_page( $page ){

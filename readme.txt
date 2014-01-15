@@ -1,8 +1,10 @@
 ===  Get page IDs ===
-Contributors: Ionut Staicu
-Tags: utility, page
+Contributors: iamntz
+Tags: page administration, utils, custom post type
 Requires at least: 3.0
-Tested up to: 3.4
+Tested up to: 3.8
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Fix some theme author mess.
 
@@ -24,8 +26,11 @@ The quickest method for installing this helper is:
 
 == Changelog ==
 
+= 1.0 =
+* initial release
+
 = 1.0.1 =
 * added toggler button
 
-= 1.0 =
-* initial release
+= 1.0.2 =
+* updated readme
